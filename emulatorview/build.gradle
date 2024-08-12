@@ -1,7 +1,8 @@
+apply plugin: 'com.android.library'
+
 //plugins {
 //    id 'com.android.library'
 //}
- apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 22
@@ -18,4 +19,5 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+//    ndkVersion '24.0.8215888'
 }
