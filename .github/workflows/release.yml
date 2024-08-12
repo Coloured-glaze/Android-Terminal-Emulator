@@ -29,7 +29,10 @@ jobs:
         add-to-path: false
 
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: |
+          chmod +x gradlew
+          ./gradlew wrapper
+      shell: bash
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
