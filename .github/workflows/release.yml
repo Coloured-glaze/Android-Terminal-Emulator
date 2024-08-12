@@ -43,8 +43,10 @@ jobs:
         export ANDROID_HOME=$HOME/sdk
         export ANDROID_SDK_ROOT=$HOME/sdk
         export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+        echo "sdk.dir=$HOME/sdk" >> local.properties
+        echo "ndk.dir=$HOME/sdk/ndk/23.1.7779620" >> local.properties
         yes | sdkmanager --licenses
-        sdkmanager "platforms;android-22" "build-tools;22.0.1" "platform-tools"
+        sdkmanager "platforms;android-22" "build-tools;22.0.1" "platform-tools" "ndk;23.1.7779620"
 
     - name: Grant execute permission for gradlew
       run: |
