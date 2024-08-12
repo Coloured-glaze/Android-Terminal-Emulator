@@ -31,9 +31,9 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y wget unzip
-        wget -P . -q --show-progress https://googledownloads.cn/android/repository/commandlinetools-linux-11076708_latest.zip
+        wget -P . -q --show-progress https://googledownloads.cn/android/repository/commandlinetools-linux-9123335_latest.zip
         mkdir -p $HOME/sdk/
-        unzip -qod $HOME/sdk/ commandlinetools-linux-11076708_latest.zip
+        unzip -qod $HOME/sdk/ commandlinetools-linux-9123335_latest.zip
         echo "===> ls :" && ls $HOME/sdk/
         mkdir -p $HOME/sdk/tmp
         mv $HOME/sdk/cmdline-tools/* $HOME/sdk/tmp/
