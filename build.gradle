@@ -2,7 +2,9 @@
 
 buildscript {
     repositories {
-        jcenter()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://jitpack.io' }
         mavenCentral()
     }
     dependencies {
@@ -13,15 +15,18 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://jitpack.io' }
+        mavenCentral()
     }
 }
 
 subprojects {
-    def androidHome
+    // def androidHome
 
-    if ((androidHome = System.env.'ANDROID_HOME')
-            && (androidHome = androidHome as File).exists()
-            && androidHome.canWrite())
-        apply plugin: 'android-sdk-manager'
+    // if ((androidHome = System.env.'ANDROID_HOME')
+    //         && (androidHome = androidHome as File).exists()
+    //         && androidHome.canWrite())
+    //     apply plugin: 'android-sdk-manager'
 }
