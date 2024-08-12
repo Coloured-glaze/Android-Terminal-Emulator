@@ -41,6 +41,7 @@ jobs:
         mv $HOME/sdk/tmp/* $HOME/sdk/cmdline-tools/latest/
         echo "===> ls :" && ls $HOME/sdk/cmdline-tools/latest/bin
         export ANDROID_HOME=$HOME/sdk
+        export ANDROID_SDK_ROOT=$HOME/sdk
         export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
         yes | sdkmanager --licenses
         sdkmanager "platforms;android-22" "build-tools;22.0.1" "platform-tools"
