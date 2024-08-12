@@ -3,6 +3,8 @@
 buildscript {
     repositories {
         maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.maven.apache.org/maven2/' }
+        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/public' }
         mavenCentral()
@@ -16,6 +18,8 @@ buildscript {
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.maven.apache.org/maven2/' }
+        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/public' }
         mavenCentral()
