@@ -12,7 +12,7 @@ android {
         ndk {
             moduleName "libjackpal-androidterm5"
             // abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86", "x86_64", "mips", "mips64"
-            abiFilters 'armeabi', 'x86'
+            abiFilters "armeabi-v7a", "arm64-v8a", 'x86_64'
             ldLibs "log"
         }
     }
