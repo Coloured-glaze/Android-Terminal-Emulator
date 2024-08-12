@@ -31,9 +31,9 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y wget unzip
-        wget -P . -q --show-progress https://dl.google.com/android/repository/commandlinetools-linux-8092744_latest.zip
+        wget -P . -q --show-progress https://googledownloads.cn/android/repository/commandlinetools-linux-11076708_latest.zip
         mkdir -p $HOME/sdk/
-        unzip -qod $HOME/sdk/ commandlinetools-linux-8092744_latest.zip
+        unzip -qod $HOME/sdk/ commandlinetools-linux-11076708_latest.zip
         echo "===> ls :" && ls $HOME/sdk/
         mkdir -p $HOME/sdk/tmp
         mv $HOME/sdk/cmdline-tools/* $HOME/sdk/tmp/
@@ -44,7 +44,7 @@ jobs:
         export ANDROID_SDK_ROOT=$HOME/sdk
         export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
         yes | sdkmanager --licenses
-        sdkmanager "platforms;android-22" "build-tools;22.0.1" "platform-tools"
+        sdkmanager "platforms;android-28" "build-tools;28.0.0" "platform-tools"
 
     - name: Grant execute permission for gradlew
       run: |
