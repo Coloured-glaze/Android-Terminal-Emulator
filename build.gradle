@@ -2,9 +2,9 @@
 
 buildscript {
     repositories {
+        maven { url 'https://jitpack.io' }
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://jitpack.io' }
         mavenCentral()
     }
     dependencies {
@@ -15,9 +15,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'https://jitpack.io' }
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://jitpack.io' }
         mavenCentral()
     }
 }
