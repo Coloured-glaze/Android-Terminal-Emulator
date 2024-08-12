@@ -31,6 +31,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y wget unzip
+        sudo apt-get install libncurses5
         wget -P . -q --show-progress https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip
         mkdir -p $HOME/sdk/
         unzip -qod $HOME/sdk/ commandlinetools-linux-9123335_latest.zip
