@@ -1,0 +1,3 @@
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/process.dir
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

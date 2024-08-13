@@ -1,0 +1,5 @@
+# ninja log v5
+0	100	745229023	CMakeFiles/jackpal-termexec2.dir/common.cpp.o	f6b4e54c30558c5b
+4	118	745229023	CMakeFiles/jackpal-termexec2.dir/fileCompat.cpp.o	1fd24bd847530771
+3	131	745229023	CMakeFiles/jackpal-termexec2.dir/termExec.cpp.o	1ed9175f9ff1ab3
+131	194	745229023	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/x86/libjackpal-termexec2.so	2155c0355c17fb03

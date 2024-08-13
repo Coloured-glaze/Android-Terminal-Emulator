@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\term\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "jackpal-termexec2-Release-x86_64": {
+      "artifactName": "jackpal-termexec2",
+      "buildCommand": "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\term\\.externalNativeBuild\\cmake\\release\\x86_64 --target jackpal-termexec2",
+      "abi": "x86_64",
+      "output": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libjackpal-termexec2.so"
+    }
+  }
+}

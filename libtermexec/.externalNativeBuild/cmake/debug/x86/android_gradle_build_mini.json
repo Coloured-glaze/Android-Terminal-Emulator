@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "jackpal-androidterm5-Debug-x86": {
+      "artifactName": "jackpal-androidterm5",
+      "buildCommand": "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\.externalNativeBuild\\cmake\\debug\\x86 --target jackpal-androidterm5",
+      "abi": "x86",
+      "output": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\build\\intermediates\\cmake\\debug\\obj\\x86\\libjackpal-androidterm5.so"
+    }
+  }
+}

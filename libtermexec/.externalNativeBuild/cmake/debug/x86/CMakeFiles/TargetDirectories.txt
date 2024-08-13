@@ -1,0 +1,3 @@
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/debug/x86/CMakeFiles/jackpal-androidterm5.dir
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+# ninja log v5
+0	93	745228129	CMakeFiles/termexec.dir/common.cpp.o	ac12342a09261923
+3	105	745228129	CMakeFiles/termexec.dir/fileCompat.cpp.o	1379966c98ac35c6
+5	122	745228129	CMakeFiles/termexec.dir/termExec.cpp.o	6b09eee3c51c7eb3
+123	193	745228129	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/armeabi-v7a/libtermexec.so	ea0669dc7f5c4cd8
+1	94	745228980	CMakeFiles/jackpal-termexec2.dir/common.cpp.o	f4c111409e75b28
+3	120	745228980	CMakeFiles/jackpal-termexec2.dir/termExec.cpp.o	bf82047645293607
+5	120	745228980	CMakeFiles/jackpal-termexec2.dir/fileCompat.cpp.o	f87c87fa01824579
+120	185	745228980	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/armeabi-v7a/libjackpal-termexec2.so	5d76c56169870581

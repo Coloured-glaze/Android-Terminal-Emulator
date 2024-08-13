@@ -1,0 +1,3 @@
+I:/APK/apk/Android-Terminal-Emulator/term/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/jackpal-termexec2.dir
+I:/APK/apk/Android-Terminal-Emulator/term/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+I:/APK/apk/Android-Terminal-Emulator/term/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

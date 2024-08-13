@@ -1,0 +1,13 @@
+# ninja log v5
+0	92	745227157	CMakeFiles/termexec.dir/common.cpp.o	d1433df2ed17f064
+3	98	745227157	CMakeFiles/termexec.dir/fileCompat.cpp.o	a7e35758a4cf5981
+4	119	745227157	CMakeFiles/termexec.dir/termExec.cpp.o	ea68bd3ccd43a402
+120	179	745227157	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/arm64-v8a/libtermexec.so	2d92cbd7e90677c5
+2	94	745228129	CMakeFiles/termexec.dir/common.cpp.o	d1433df2ed17f064
+4	99	745228129	CMakeFiles/termexec.dir/fileCompat.cpp.o	a7e35758a4cf5981
+6	118	745228129	CMakeFiles/termexec.dir/termExec.cpp.o	ea68bd3ccd43a402
+118	179	745228129	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/arm64-v8a/libtermexec.so	2d92cbd7e90677c5
+1	94	745228980	CMakeFiles/jackpal-termexec2.dir/common.cpp.o	fcb8e9badd530110
+3	102	745228980	CMakeFiles/jackpal-termexec2.dir/fileCompat.cpp.o	be37c7283d959356
+5	116	745228980	CMakeFiles/jackpal-termexec2.dir/termExec.cpp.o	b51fc0de8ad760e9
+116	177	745228980	I:/APK/apk/Android-Terminal-Emulator/term/build/intermediates/cmake/release/obj/arm64-v8a/libjackpal-termexec2.so	cda9f8ce5b06e310

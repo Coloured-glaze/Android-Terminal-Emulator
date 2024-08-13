@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dI:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dI:/APK/apk/Android-Terminal-Emulator/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dI:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "termexec-release-x86_64": {
+      "buildCommand": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dI:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dI:/APK/apk/Android-Terminal-Emulator/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dI:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib I:/APK/apk/Android-Terminal-Emulator/libtermexec/build/intermediates/ndkBuild/release/obj/local/x86_64/libtermexec.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "termexec",
+      "files": [
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\process.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot I:/APK/commandlinetools-win/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fPIC -O2 -DNDEBUG -II:/APK/commandlinetools-win/ndk/20.1.5948944/build//../sources/cxx-stl/system/include -II:/APK/apk/Android-Terminal-Emulator/libtermexec/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libtermexec.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cppCompilerExecutable": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

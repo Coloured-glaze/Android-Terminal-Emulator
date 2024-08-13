@@ -1,0 +1,63 @@
+{
+  "stringTable": {
+    "0": "I:/APK/apk/Android-Terminal-Emulator/term/.externalNativeBuild/cmake/release/x86_64",
+    "1": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -std=gnu++11",
+    "2": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Djackpal_termexec2_EXPORTS -II:/APK/apk/Android-Terminal-Emulator/term/src/main/jni -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O2 -DNDEBUG -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\term\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "jackpal-termexec2-Release-x86_64": {
+      "buildCommand": "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\term\\.externalNativeBuild\\cmake\\release\\x86_64 --target jackpal-termexec2",
+      "buildType": "release",
+      "toolchain": "1530547304",
+      "abi": "x86_64",
+      "artifactName": "jackpal-termexec2",
+      "files": [
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\common.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\fileCompat.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\termExec.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\fileCompat.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\src\\main\\jni\\termExec.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "I:\\APK\\apk\\Android-Terminal-Emulator\\term\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libjackpal-termexec2.so"
+    }
+  },
+  "toolchains": {
+    "1530547304": {
+      "cppCompilerExecutable": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

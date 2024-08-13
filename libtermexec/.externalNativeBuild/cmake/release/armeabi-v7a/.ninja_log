@@ -1,0 +1,5 @@
+# ninja log v5
+0	153	745228127	CMakeFiles/process.dir/process.cpp.o	e56cf77f963d7ecc
+154	229	745228127	I:/APK/apk/Android-Terminal-Emulator/libtermexec/build/intermediates/cmake/release/obj/armeabi-v7a/libprocess.so	e94634a0c29c1a1a
+0	149	745228979	CMakeFiles/jackpal-androidterm5.dir/process.cpp.o	2396d3298ceb2049
+149	234	745228980	I:/APK/apk/Android-Terminal-Emulator/libtermexec/build/intermediates/cmake/release/obj/armeabi-v7a/libjackpal-androidterm5.so	5a96f3144f90af7

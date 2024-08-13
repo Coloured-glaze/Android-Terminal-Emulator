@@ -1,0 +1,20 @@
+Executable : I:\APK\commandlinetools-win\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HI:\APK\apk\Android-Terminal-Emulator\libtermexec\src\main\jni
+-BI:\APK\apk\Android-Terminal-Emulator\libtermexec\.externalNativeBuild\cmake\debug\x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=I:\APK\apk\Android-Terminal-Emulator\libtermexec\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=I:\APK\commandlinetools-win\ndk\20.1.5948944
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=I:\APK\commandlinetools-win\ndk\20.1.5948944
+-DCMAKE_TOOLCHAIN_FILE=I:\APK\commandlinetools-win\ndk\20.1.5948944\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=I:\APK\commandlinetools-win\cmake\3.10.2.4988404\bin\ninja.exe
+jvmArgs : 
+

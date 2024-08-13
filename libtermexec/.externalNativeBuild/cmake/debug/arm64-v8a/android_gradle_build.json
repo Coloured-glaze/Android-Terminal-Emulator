@@ -1,0 +1,45 @@
+{
+  "stringTable": {
+    "0": "I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/debug/arm64-v8a",
+    "1": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -std=gnu++11",
+    "2": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Djackpal_androidterm5_EXPORTS -II:/APK/apk/Android-Terminal-Emulator/libtermexec/src/main/jni -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fno-experimental-isel -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "jackpal-androidterm5-Debug-arm64-v8a": {
+      "buildCommand": "I:\\APK\\commandlinetools-win\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target jackpal-androidterm5",
+      "buildType": "debug",
+      "toolchain": "1530547304",
+      "abi": "arm64-v8a",
+      "artifactName": "jackpal-androidterm5",
+      "files": [
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\process.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libjackpal-androidterm5.so"
+    }
+  },
+  "toolchains": {
+    "1530547304": {
+      "cppCompilerExecutable": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

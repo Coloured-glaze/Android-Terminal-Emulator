@@ -1,0 +1,7 @@
+[
+{
+  "directory": "I:/APK/apk/Android-Terminal-Emulator/libtermexec/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "I:\\APK\\commandlinetools-win\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=I:/APK/commandlinetools-win/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Djackpal_androidterm5_EXPORTS -II:/APK/apk/Android-Terminal-Emulator/libtermexec/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\jackpal-androidterm5.dir\\process.cpp.o -c I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\process.cpp",
+  "file": "I:\\APK\\apk\\Android-Terminal-Emulator\\libtermexec\\src\\main\\jni\\process.cpp"
+}
+]
