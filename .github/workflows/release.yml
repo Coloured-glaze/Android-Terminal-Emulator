@@ -80,9 +80,10 @@ jobs:
       run: |
         echo "::set-output name=apk_path::$(find \${{ github.workspace }} -name "term*.apk")"
 
-    - uses: softprops/action-gh-release@v1
+    - uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        files: ${{ steps.find_apk_path.outputs.apk_path }}
+        files: |
+          ${{ steps.find_apk_path.outputs.apk_path }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
