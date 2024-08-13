@@ -26,6 +26,7 @@
 #include <unistd.h>
 #include <termios.h>
 #include <signal.h>
+#include <cstring>
 
 typedef unsigned short char16_t;
 
