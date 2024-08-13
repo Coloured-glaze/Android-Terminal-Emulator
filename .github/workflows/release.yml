@@ -47,6 +47,7 @@ jobs:
         echo "ndk.dir=$HOME/sdk/ndk/16.1.4479499" >> local.properties
 
         yes | sdkmanager --licenses
+        echo "===> sdkmanager install <===" && \
         sdkmanager install "platforms;android-22" "build-tools;22.0.1" "platform-tools" "ndk;16.1.4479499"
 
     - name: Grant execute permission for gradlew
