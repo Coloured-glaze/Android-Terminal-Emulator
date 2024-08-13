@@ -12,7 +12,6 @@ buildscript {
         maven { url 'https://repo.maven.apache.org/maven2/' }
         maven { url 'https://repo.huaweicloud.com/repository/maven/' }
         maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
-        google()
         mavenCentral()
     }
     dependencies {
@@ -29,7 +28,6 @@ allprojects {
         maven { url 'https://repo.maven.apache.org/maven2/' }
         maven { url 'https://repo.huaweicloud.com/repository/maven/' }
         maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
-        google()
         mavenCentral()
     }
 }
