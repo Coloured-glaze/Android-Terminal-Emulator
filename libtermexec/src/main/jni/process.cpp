@@ -26,8 +26,9 @@
 #include <unistd.h>
 #include <termios.h>
 #include <signal.h>
+#include <cstring>
 
-typedef unsigned short char16_t;
+// typedef unsigned short char16_t;
 
 class String8 {
 public:
