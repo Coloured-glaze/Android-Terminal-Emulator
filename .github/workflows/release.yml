@@ -73,12 +73,12 @@ jobs:
 
     - id: print_apk_path
       run: |
-        find ${{ github.workspace }} -name "*.apk"
+        find ${{ github.workspace }} -name "term*.apk"
       shell: bash
 
     - id: find_apk_path
       run: |
-        echo "::set-output name=apk_path::$(find \${{ github.workspace }} -name "*.apk")"
+        echo "::set-output name=apk_path::$(find \${{ github.workspace }} -name "term*.apk")"
 
     - uses: softprops/action-gh-release@v1
       with:
